@@ -1,13 +1,19 @@
-#include<iostream>
+#include <iostream>
+
 using namespace std;
+
 int main()
 {
-    int x;
-    cout<<"Enter the weight of the Berry  : ";
-    cin>>x;
-    if(x%2==0)
-        cout<<"YES";
-        else
-        cout<<"NO";
+    int n, Petya, Vasya, Tonya, number(0);
+    cin >> n;
+    while (n--)
+    {
+        cin >> Petya >> Vasya >> Tonya;
+        if (Petya + Vasya + Tonya >= 2)
+        {
+            number += 1;
+        }
+    }
+    cout << number << endl;
     return 0;
 }
