@@ -7,7 +7,7 @@ int main()
     int n;
     cout<<"Enter the weight of the Berry :\n";
     cin>>n;
-    if(n%2==0)
+    if(n%4==0)
         cout<<"YES\n";
     else
         cout<<"NO\n";
