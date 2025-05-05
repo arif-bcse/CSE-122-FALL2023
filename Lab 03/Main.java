@@ -5,7 +5,7 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     int num1 = (int)(Math.random()*3);
-        System.out.println(num1);
+        System.out.println("The First Number is : "+num1);
     int num2 = (int)(Math.random()*6);
         try{
             if(num1==0){
